@@ -1,17 +1,15 @@
-import React, { useEffect } from "react"
-import Hammer from "hammerjs"
+import React from "react"
+
 import "./styles.scss"
 
 const Nav = () => {
-  useEffect(() => {}, [])
-
   return (
-    <div id="menu">
-      <div class="row">
-        <div class="col-left">
+    <div className="menu">
+      <div className="row">
+        <div className="col-left">
           <a href="#">work</a>
         </div>
-        <div class="col-right">
+        <div className="col-right">
           <div>
             <a href="#">all</a>
           </div>
@@ -26,8 +24,8 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-left">
+      <div className="row">
+        <div className="col-left">
           <div>
             <a href="#">about</a>
           </div>
@@ -39,9 +37,9 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-left"></div>
-        <div class="col-right">
+      <div className="row">
+        <div className="col-left"></div>
+        <div className="col-right">
           <div>
             <a href="#">instagram</a>
           </div>
