@@ -1,0 +1,19 @@
+#menu {
+  background: #ccc;
+  width: 200px;
+  height: 200px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  color: white;
+  padding: 20px;
+  cursor: grab;
+  line-height: 22px;
+}
+
+.row {
+  display: flex;
+}
+.col-left {
+  width: 30%;
+}
