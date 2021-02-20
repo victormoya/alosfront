@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import ArticlesComponent from "../components/articles"
 
-import "./styles.scss"
+import "../../static/scss/all.scss"
 
 const IndexPage = () => {
   //const data = useStaticQuery(query);
