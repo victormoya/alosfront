@@ -35,16 +35,8 @@ const Nav = () => {
           <div>
             <a href="#">contact</a>
           </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-left"></div>
-        <div className="col-right">
           <div>
             <a href="#">instagram</a>
-          </div>
-          <div>
-            <a href="#">behance</a>
           </div>
         </div>
       </div>
