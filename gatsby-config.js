@@ -1,3 +1,5 @@
+const path = require("path")
+
 require("dotenv").config({
   path: `.env`,
 })
@@ -17,6 +19,13 @@ module.exports = {
         contentTypes: ["article", "writer"],
         singleTypes: [`homepage`, `global`],
         queryLimit: 1000,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
       },
     },
     "gatsby-transformer-sharp",

@@ -11,13 +11,16 @@ body {
 }
 
 a {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -1px;
   color: $link-color;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .react-transform-component {

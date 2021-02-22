@@ -6,14 +6,11 @@
   cursor: grab;
   line-height: 22px;
   z-index: 999;
-  letter-spacing: -1px;
-  line-height: 1.5;
-  font-size: 18px;
-}
 
-.row {
-  display: flex;
-}
-.col-right {
-  padding-left: 1.5rem;
+  .entry {
+    display: flex;
+  }
+  .sections {
+    padding-left: 1.5rem;
+  }
 }

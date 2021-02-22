@@ -1,44 +1,44 @@
 import React from "react"
 
-import "./styles.scss"
-
 const Nav = () => {
   return (
     <div className="menu">
-      <div className="row">
-        <div className="col-left">
-          <a href="#">work</a>
+      <div className="entry">
+        <div>
+          <a href="/">work</a>
         </div>
-        <div className="col-right">
+        <div className="sections">
           <div>
-            <a href="#">all</a>
+            <a href="/">all</a>
           </div>
           <div>
-            <a href="#">graphic</a>
+            <a href="/graphic">graphic</a>
           </div>
           <div>
-            <a href="#">product</a>
+            <a href="/product">product</a>
           </div>
           <div>
-            <a href="#">other</a>
+            <a href="/other">other</a>
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-left">
-          <div>
-            <a href="#">about</a>
-          </div>
-          <div>
-            <a href="#">news</a>
-          </div>
-          <div>
-            <a href="#">contact</a>
-          </div>
-          <div>
-            <a href="#">instagram</a>
-          </div>
-        </div>
+      <div>
+        <a href="/about">about</a>
+      </div>
+      <div>
+        <a href="/news">news</a>
+      </div>
+      <div>
+        <a href="/contact">contact</a>
+      </div>
+      <div>
+        <a
+          href="https://www.instagram.com/sebastianalos/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          instagram
+        </a>
       </div>
     </div>
   )
