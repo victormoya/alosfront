@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  font: 100% $font-base;
+  background-color: $background-color;
+}
+
+a {
+  font-size: 18px;
+  line-height: 1.5;
+  color: $link-color;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.react-transform-component {
+  width: 100%;
+  height: 100vh;
+}

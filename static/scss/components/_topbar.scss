@@ -5,4 +5,14 @@
   padding: 0.8rem 1.5rem;
   position: fixed;
   overflow: initial !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.separator {
+  font-size: 18px;
+  line-height: 1.5;
+  color: $link-color;
+  letter-spacing: -1px;
+  margin: 0 3px;
 }
