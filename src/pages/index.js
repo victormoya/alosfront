@@ -1,23 +1,16 @@
 import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
-import Layout from "../components/layout"
+import { Layout, Figure } from "components"
 
-import Topbar from "../components/topbar"
-
-import "../../static/scss/all.scss"
+import "static/scss/all.scss"
 
 const HomePage = () => {
   return (
-    <>
-      <Topbar />
-      <Layout>
-        <img src={"/images/example1.png"} alt="fig1" />
-        <img src={"/images/example2.png"} alt="fig2" />
-        <img src={"/images/example3.png"} alt="fig3" />
-        <img src={"/images/example4.png"} alt="fig4" />
-      </Layout>
-    </>
+    <Layout>
+      <Figure src="/images/example1.png" alt="figure_1" />
+      <Figure src="/images/example2.png" alt="figure_2" />
+      <Figure src="/images/example3.png" alt="figure_3" />
+      <Figure src="/images/example4.png" alt="figure_4" />
+    </Layout>
   )
 }
 

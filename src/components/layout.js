@@ -1,42 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch"
+import { Topbar, Nav } from "components"
 
-import Nav from "./nav"
-
-const Layout = ({ children, seo }) => {
+const Layout = ({ children }) => {
   return (
-    <>
-      {/* <TransformWrapper
-        options={{
-          limitToBounds: true,
-          transformEnabled: true,
-          limitToWrapper: true,
-        }}
-        pan={{
-          lockAxisX: false,
-          lockAxisY: false,
-          velocityEqualToMove: true,
-          velocity: true,
-        }}
-      >
-        {({
-          resetTransform,
-          setDefaultState,
-          positionX,
-          positionY,
-          scale,
-          previousScale,
-          options: { limitToBounds, transformEnabled, disabled },
-          ...rest
-        }) => (
-          <TransformComponent>
-            <Nav />
-          </TransformComponent>
-        )}
-      </TransformWrapper> */}
+    <div className="layout">
+      <Topbar />
       {children}
-    </>
+      <Nav />
+    </div>
   )
 }
 

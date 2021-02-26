@@ -1,11 +1,10 @@
-.menu {
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  padding: 0;
-  cursor: grab;
+.nav {
+  position: fixed;
+  bottom: 12px;
+  right: 24px;
   line-height: 22px;
-  z-index: 999;
+  background-color: transparent;
+  cursor: grab;
 
   .entry {
     display: flex;

@@ -7,11 +7,11 @@ const Topbar = () => {
         <a href="/">Sebastian Alos</a>
       </div>
       <div>
-        <a href="">ENG</a>
+        <a href="#">ENG</a>
         <span className="separator">/</span>
-        <a href="">ESP</a>
+        <a href="#">ESP</a>
         <span className="separator">/</span>
-        <a href="">VAL</a>
+        <a href="#">VAL</a>
       </div>
     </header>
   )
