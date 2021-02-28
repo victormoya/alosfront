@@ -1,34 +1,39 @@
 import React from "react"
+import { Link } from "gatsby"
 
-const Nav = () => (
+const Nav = ({ showSection }) => (
   <div className="nav">
     <div className="entry">
       <div>
-        <a href="/">work</a>
+        <Link to="/">work</Link>
       </div>
       <div className="sections">
         <div>
-          <a href="/">all</a>
+          <Link to="/">all</Link>
         </div>
         <div>
-          <a href="/graphic">graphic</a>
+          <Link to="/">graphic</Link>
         </div>
         <div>
-          <a href="/product">product</a>
+          <Link to="/">product</Link>
         </div>
         <div>
-          <a href="/other">other</a>
+          <Link to="/">other</Link>
         </div>
       </div>
     </div>
     <div>
-      <a href="/about">about</a>
+      <Link to="/" onClick={() => showSection("about")}>
+        about
+      </Link>
     </div>
     <div>
-      <a href="/news">news</a>
+      <Link to="/news">news</Link>
     </div>
     <div>
-      <a href="/contact">contact</a>
+      <Link to="/" onClick={() => showSection("contact")}>
+        contact
+      </Link>
     </div>
     <div>
       <a

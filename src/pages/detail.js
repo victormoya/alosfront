@@ -1,8 +1,8 @@
 import React from "react"
 import { Layout } from "components"
 
-const News = () => {
+const Detail = () => {
   return <Layout></Layout>
 }
 
-export default News
+export default Detail

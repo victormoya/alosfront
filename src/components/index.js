@@ -1,7 +1,8 @@
-import Explanation from "./explanation"
+import Caption from "./caption"
 import Figure from "./figure"
-import Nav from "./nav"
-import Topbar from "./topbar"
 import Layout from "./layout"
+import Nav from "./nav"
+import Section from "./section"
+import Topbar from "./topbar"
 
-export { Explanation, Figure, Nav, Topbar, Layout }
+export { Caption, Figure, Layout, Nav, Section, Topbar }

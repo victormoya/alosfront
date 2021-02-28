@@ -1,17 +1,18 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Topbar = () => {
   return (
     <header className="topbar">
       <div>
-        <a href="/">Sebastian Alos</a>
+        <Link to="/">Sebastian Alos</Link>
       </div>
       <div>
-        <a href="#">ENG</a>
+        <Link to="/">ENG</Link>
         <span className="separator">/</span>
-        <a href="#">ESP</a>
+        <Link to="/">ESP</Link>
         <span className="separator">/</span>
-        <a href="#">VAL</a>
+        <Link to="/">VAL</Link>
       </div>
     </header>
   )

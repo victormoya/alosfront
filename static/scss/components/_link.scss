@@ -1,0 +1,19 @@
+.no-link {
+  font: inherit;
+  color: black;
+}
+
+a {
+  font: 100% $font-invert;
+  font-size: 18px;
+  line-height: 1.5;
+  color: $link-color;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none;
+}
