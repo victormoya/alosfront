@@ -6,28 +6,29 @@
   padding: 1rem 1.5rem 0;
   background-color: white;
   line-height: 22px;
+  z-index: 999;
+}
 
-  .close {
-    position: absolute;
-    right: 1.5rem;
-    top: 0.5rem;
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
-  }
-  .close:before,
-  .close:after {
-    position: absolute;
-    left: 7px;
-    content: " ";
-    height: 17px;
-    width: 1px;
-    background-color: black;
-  }
-  .close:before {
-    transform: rotate(45deg);
-  }
-  .close:after {
-    transform: rotate(-45deg);
-  }
+.close {
+  position: absolute;
+  right: 1.5rem;
+  top: 0.5rem;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 7px;
+  content: " ";
+  height: 17px;
+  width: 1px;
+  background-color: black;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
 }

@@ -8,3 +8,14 @@
     max-height: 300px;
   }
 }
+
+.caption {
+  max-height: 212px;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem 0;
+  background-color: white;
+  line-height: 22px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
